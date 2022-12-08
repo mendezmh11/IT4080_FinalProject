@@ -9,7 +9,7 @@ public class BulletSpawner : NetworkBehaviour
     public NetworkVariable<int> BulletDamage = new NetworkVariable<int>(1);
 
     public Rigidbody bullet;
-    private float bulletSpeed = 100f;
+    private float bulletSpeed = 50f;
     private int maxDamage = 20;
 
     public void IncreaseDamage()
